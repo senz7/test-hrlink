@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Войти в личный кабинет</title>
+  </head>
+  <body>
+    <div class="login">
+      <h1 class="login__title">Войти в личный кабинет</h1>
+
+      <div class="login__illustration">
+        <img src="" alt="Dashboard illustration" class="login__image" />
+      </div>
+
+      <form class="login-form">
+        <div class="login-form__group">
+          <input
+            type="text"
+            id="email"
+            class="login-form__input"
+            placeholder="Email/Телефон"
+            required
+          />
+          <button
+            type="button"
+            class="login-form__info-button"
+            aria-label="Информация о поле Email/Телефон"
+          >
+            i
+          </button>
+        </div>
+
+        <a href="#" class="login-form__help-link">Не удаётся войти?</a>
+
+        <div class="login-form__group">
+          <input
+            type="password"
+            id="password"
+            class="login-form__input"
+            placeholder="Пароль"
+            required
+          />
+          <button
+            type="button"
+            class="login-form__toggle-password"
+            aria-label="Показать/скрыть пароль"
+          >
+            <!-- You can add an eye icon here -->
+          </button>
+        </div>
+
+        <button type="submit" class="login-form__submit">
+          Войти
+          <span class="login-form__submit-arrow">→</span>
+        </button>
+      </form>
+
+      <div class="login__footer">
+        <button type="button" class="login__help-button" aria-label="Помощь">
+          ?
+        </button>
+        <p class="login__copyright">Copyright © 2024 SPBlink</p>
+      </div>
+    </div>
+  </body>
+</html>
